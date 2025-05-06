@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0f172a, #1e293b);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(30, 41, 59, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    font-size: 18px;
+    color: #94a3b8;
+}
+
+.selection-box {
+    border: 2px solid #3b82f6;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(59, 130, 246, 0.1);
+}
+
+main label, main select, main button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+main select {
+    background: #1e293b;
+    color: #fff;
+}
+
+main button {
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+main button:hover {
+    background: #2563eb;
+}
+
+.gift {
+    margin-top: 20px;
+    padding: 15px;
+    background: #3b82f6;
+    border-radius: 5px;
+    font-size: 18px;
+    display: none;
+    white-space: pre-wrap;
+}
+
+footer {
+    background: #0f172a;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+.contact a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #94a3b8;
+}
